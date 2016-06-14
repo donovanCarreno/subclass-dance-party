@@ -25,3 +25,33 @@ body, a:link, a:visited, a:active{
   border-radius:10px;
   position:absolute;
 }
+.sizer {
+  height: 50px;
+  border: 20px solid blue;
+}
+
+.sappy {
+   position:absolute;
+  background-image: url('http://www.thetaxidermystore.com/media/catalog/product/cache/1/small_image/64x/9df78eab33525d08d6e5fb8d27136e95/k/u/kudu-skull-horns-european-mount-_13748-for-sale-at-the-taxidermy-store.jpg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 40px;
+  height: 40px;
+  border: 10px solid green;
+  transition: all 0.3s ease-in-out 0s; 
+}
+
+.sappy:hover {
+   position:absolute;
+  -webkit-transform: rotate(360deg);
+  transform: rotate(360deg);
+  transition: all 0.9s ease-in-out 0s;
+}
+
+
+
+.lineUpper {
+  margin-left: 0;
+  left: 0px;
+  width: +10%;
+}

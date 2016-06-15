@@ -3,7 +3,7 @@ body, html{
 }
 body{
   margin: 0px;
-  background-color:#444;
+  background-image: url("http://www.axsysnav.eu/wp-content/uploads/2014/07/space.jpg");
   font-size: 18px;
 }
 body, a:link, a:visited, a:active{
@@ -21,8 +21,8 @@ body, a:link, a:visited, a:active{
   background-color: #777;
 }
 .dancer{
-  border:10px solid red;
-  border-radius:10px;
+  /*border:10px solid red;*/
+  /*border-radius:10px;*/
   position:absolute;
 }
 .sizer {
@@ -32,26 +32,46 @@ body, a:link, a:visited, a:active{
 
 .sappy {
    position:absolute;
-  background-image: url('http://www.thetaxidermystore.com/media/catalog/product/cache/1/small_image/64x/9df78eab33525d08d6e5fb8d27136e95/k/u/kudu-skull-horns-european-mount-_13748-for-sale-at-the-taxidermy-store.jpg');
-  background-repeat: no-repeat;
-  background-size: 100%;
+  /*background-image: url('http://www.thetaxidermystore.com/media/catalog/product/cache/1/small_image/64x/9df78eab33525d08d6e5fb8d27136e95/k/u/kudu-skull-horns-european-mount-_13748-for-sale-at-the-taxidermy-store.jpg');*/
+  /*background-repeat: no-repeat;*/
+  /*background-size: 100%;*/
   width: 40px;
   height: 40px;
-  border: 10px solid green;
-  transition: all 0.3s ease-in-out 0s; 
+ /* border: 10px solid green;*/
+  transition: all 0.2s ease-in-out 0s; 
 }
 
 .sappy:hover {
    position:absolute;
   -webkit-transform: rotate(360deg);
   transform: rotate(360deg);
-  transition: all 0.9s ease-in-out 0s;
+  transition: all 0.2s ease-in-out 0s;
+}
+
+.spinnery {
+  /*width: 50%;*/
+}
+
+.random1 {
+  
+}
+
+.targetObj {
+  height: 50%;
+  width: 50%;
+  display: block;
+}
+.targetObj2 {
+
+}
+.enders {
+background-image: url('https://media.giphy.com/media/11H7zCnyRhY5dS/giphy.gif');
+background-repeat: no-repeat;  
+background-size: 100%;
+}
+.enders2 {
+  visibility: hidden;
 }
 
 
 
-.lineUpper {
-  margin-left: 0;
-  left: 0px;
-  width: +10%;
-}
